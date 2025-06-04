@@ -16,18 +16,15 @@
     - image-to-text
     - vision
     - cpu
-  name: "moondream2-20250414"
+  name: "moondream2-20250414-GGUF"
   overrides:
     mmproj: moondream2-mmproj-f16-20250414.gguf
     parameters:
       model: moondream2-text-model-f16_ct-vicuna.gguf
   files:
-    - filename: moondream2-text-model-f16_ct-vicuna.gguf
-      sha256: 925bcb666baf69ed747e26121af287b16ae7764483be9548b1382f29783689a5
-      uri: https://huggingface.co/ggml-org/moondream2-20250414-GGUF/resolve/main/moondream2-text-model-f16_ct-vicuna.gguf
     - filename: moondream2-mmproj-f16-20250414.gguf
       sha256: 4cc1cb3660d87ff56432ebeb7884ad35d67c48c7b9f6b2856f305e39c38eed8f
-      uri: https://huggingface.co/ggml-org/moondream2-20250414-GGUF/resolve/main/moondream2-mmproj-f16-20250414.gguf
+      uri: https://www.modelscope.cn/models/ggml-org/moondream2-20250414-GGUF/resolve/master/moondream2-mmproj-f16-20250414.gguf
 - &smolvlm
   url: "github:mudler/LocalAI/gallery/smolvlm.yaml@master"
   name: "smolvlm-256m-instruct"
