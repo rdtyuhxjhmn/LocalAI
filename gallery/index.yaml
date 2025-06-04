@@ -16,11 +16,11 @@
     - image-to-text
     - vision
     - cpu
-  name: "moondream2-20250414-GGUF"
+  name: "moondream2-20250414"
   overrides:
     mmproj: moondream2-mmproj-f16-20250414.gguf
     parameters:
-      model: moondream2-text-model-f16_ct-vicuna.gguf
+      model: moondream2-text-model-f16.gguf
   files:
     - filename: moondream2-mmproj-f16-20250414.gguf
       sha256: 4cc1cb3660d87ff56432ebeb7884ad35d67c48c7b9f6b2856f305e39c38eed8f
