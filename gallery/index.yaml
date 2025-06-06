@@ -274,8 +274,8 @@
       model: Qwen3-4B.Q4_K_M.gguf
   files:
     - filename: Qwen3-4B.Q4_K_M.gguf
-      sha256: a37931937683a723ae737a0c6fc67dab7782fd8a1b9dea2ca445b7a1dbd5ca3a
-      uri: huggingface://MaziyarPanahi/Qwen3-4B-GGUF/Qwen3-4B.Q4_K_M.gguf
+      sha256: 7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5
+      uri: https://www.modelscope.cn/models/Qwen/Qwen3-4B-GGUF/resolve/master/Qwen3-4B-Q4_K_M.gguf
 - !!merge <<: *qwen3
   name: "qwen3-1.7b"
   urls:
