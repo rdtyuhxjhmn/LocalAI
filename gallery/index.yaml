@@ -94,25 +94,21 @@ Qwen3-30B-A3B 具有以下特点：
     - https://huggingface.co/Qwen/Qwen3-32B
     - https://huggingface.co/bartowski/Qwen_Qwen3-32B-GGUF
   description: |
-    Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support, with the following key features:
-
-        Uniquely support of seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue) within single model, ensuring optimal performance across various scenarios.
-        Significantly enhancement in its reasoning capabilities, surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning.
-        Superior human preference alignment, excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience.
-        Expertise in agent capabilities, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.
-        Support of 100+ languages and dialects with strong capabilities for multilingual instruction following and translation.
-
-    Qwen3-32B has the following features:
-
-        Type: Causal Language Models
-        Training Stage: Pretraining & Post-training
-        Number of Parameters: 32.8B
-        Number of Paramaters (Non-Embedding): 31.2B
-        Number of Layers: 64
-        Number of Attention Heads (GQA): 64 for Q and 8 for KV
-        Context Length: 32,768 natively and 131,072 tokens with YaRN.
-
-        For more details, including benchmark evaluation, hardware requirements, and inference performance, please refer to our blog, GitHub, and Documentation.
+ Qwen3 是 Qwen 系列中的最新一代大型语言模型，提供了一整套密集型和专家混合（MoE）模型。基于广泛的训练，Qwen3 在推理、指令遵循、代理能力和多语言支持方面取得了突破性进展，具有以下关键特性：
+在单个模型中无缝切换思考模式（用于复杂逻辑推理、数学和编码）和非思考模式（用于高效、通用对话），确保在各种场景下的最佳性能。
+显著增强了其推理能力，在数学、代码生成和常识逻辑推理方面超过了之前的 QwQ（在思考模式下）和 Qwen2.5 指令模型（在非思考模式下）。
+卓越的人类偏好对齐，在创意写作、角色扮演、多轮对话和指令遵循方面表现出色，提供更自然、引人入胜和沉浸式的对话体验。
+擅长代理能力，能够在思考和非思考模式下与外部工具精确集成，并在复杂的基于代理的任务中达到开源模型的领先性能。
+支持 100 多种语言和方言，具有强大的多语言指令遵循和翻译能力。
+   Qwen3-32B 具有以下特点：
+类型：因果语言模型
+训练阶段：预训练 & 后训练
+参数数量：328 亿
+非嵌入参数数量：312 亿
+层数：64
+注意力头数（GQA）：Q 为 64，KV 为 8
+上下文长度：原生 32,768 和 使用 YaRN 可达 131,072 个令牌。
+有关更多详细信息，包括基准评估、硬件要求和推理性能，请参阅我们的 博客，GitHub 和 文档。
   overrides:
     parameters:
       model: Qwen_Qwen3-32B-Q4_K_M.gguf
@@ -126,25 +122,21 @@ Qwen3-30B-A3B 具有以下特点：
     - https://huggingface.co/Qwen/Qwen3-14B
     - https://huggingface.co/MaziyarPanahi/Qwen3-14B-GGUF
   description: |
-    Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support, with the following key features:
-
-        Uniquely support of seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue) within single model, ensuring optimal performance across various scenarios.
-        Significantly enhancement in its reasoning capabilities, surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning.
-        Superior human preference alignment, excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience.
-        Expertise in agent capabilities, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.
-        Support of 100+ languages and dialects with strong capabilities for multilingual instruction following and translation.
-
-    Qwen3-14B has the following features:
-
-        Type: Causal Language Models
-        Training Stage: Pretraining & Post-training
-        Number of Parameters: 14.8B
-        Number of Paramaters (Non-Embedding): 13.2B
-        Number of Layers: 40
-        Number of Attention Heads (GQA): 40 for Q and 8 for KV
-        Context Length: 32,768 natively and 131,072 tokens with YaRN.
-
-    For more details, including benchmark evaluation, hardware requirements, and inference performance, please refer to our blog, GitHub, and Documentation.
+    Qwen3 是 Qwen 系列中的最新一代大型语言模型，提供了一整套密集型和专家混合（MoE）模型。基于广泛的训练，Qwen3 在推理、指令遵循、代理能力和多语言支持方面取得了突破性进展，具有以下关键特性：
+在单个模型中无缝切换思考模式（用于复杂逻辑推理、数学和编码）和非思考模式（用于高效、通用对话），确保在各种场景下的最佳性能。
+显著增强了其推理能力，在数学、代码生成和常识逻辑推理方面超过了之前的 QwQ（在思考模式下）和 Qwen2.5 指令模型（在非思考模式下）。
+卓越的人类偏好对齐，在创意写作、角色扮演、多轮对话和指令遵循方面表现出色，提供更自然、引人入胜和沉浸式的对话体验。
+擅长代理能力，能够在思考和非思考模式下与外部工具精确集成，并在复杂的基于代理的任务中达到开源模型的领先性能。
+支持 100 多种语言和方言，具有强大的多语言指令遵循和翻译能力。
+    Qwen3-14B 具有以下特点：
+类型：因果语言模型
+训练阶段：预训练和后训练
+参数数量：14.8B
+非嵌入参数数量：13.2B
+层数：40
+注意力头数（GQA）：Q 为 40，KV 为 8
+上下文长度：原生 32,768 和 使用 YaRN 的 131,072 个令牌。
+有关更多详细信息，包括基准评估、硬件要求和推理性能，请参阅我们的博客、GitHub和文档。
   overrides:
     parameters:
       model: Qwen3-14B.Q4_K_M.gguf
@@ -158,25 +150,20 @@ Qwen3-30B-A3B 具有以下特点：
     - https://huggingface.co/Qwen/Qwen3-8B
     - https://huggingface.co/MaziyarPanahi/Qwen3-8B-GGUF
   description: |
-    Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support, with the following key features:
-
-        Uniquely support of seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue) within single model, ensuring optimal performance across various scenarios.
-        Significantly enhancement in its reasoning capabilities, surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning.
-        Superior human preference alignment, excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience.
-        Expertise in agent capabilities, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.
-        Support of 100+ languages and dialects with strong capabilities for multilingual instruction following and translation.
-
-    Model Overview
-
-    Qwen3-8B has the following features:
-
-        Type: Causal Language Models
-        Training Stage: Pretraining & Post-training
-        Number of Parameters: 8.2B
-        Number of Paramaters (Non-Embedding): 6.95B
-        Number of Layers: 36
-        Number of Attention Heads (GQA): 32 for Q and 8 for KV
-        Context Length: 32,768 natively and 131,072 tokens with YaRN.
+    Qwen3 是 Qwen 系列中的最新一代大型语言模型，提供了一整套密集型和专家混合（MoE）模型。基于广泛的训练，Qwen3 在推理、指令遵循、代理能力和多语言支持方面取得了突破性进展，具有以下关键特性：
+在单个模型中无缝切换思考模式（用于复杂逻辑推理、数学和编码）和非思考模式（用于高效、通用对话），确保在各种场景下的最佳性能。
+显著增强了其推理能力，在数学、代码生成和常识逻辑推理方面超过了之前的 QwQ（在思考模式下）和 Qwen2.5 指令模型（在非思考模式下）。
+卓越的人类偏好对齐，在创意写作、角色扮演、多轮对话和指令遵循方面表现出色，提供更自然、引人入胜和沉浸式的对话体验。
+擅长代理能力，能够在思考和非思考模式下与外部工具精确集成，并在复杂的基于代理的任务中达到开源模型的领先性能。
+支持 100 多种语言和方言，具有强大的多语言指令遵循和翻译能力。
+    Qwen3-8B 具有以下特点：
+类型：因果语言模型
+训练阶段：预训练和后训练
+参数数量：82 亿
+非嵌入参数数量：69.5 亿
+层数：36
+注意力头数（GQA）：Q 为 32 个，KV 为 8 个
+上下文长度：原生 32,768 和 使用 YaRN 的 131,072 个令牌。
   overrides:
     parameters:
       model: Qwen3-8B.Q4_K_M.gguf
@@ -190,23 +177,20 @@ Qwen3-30B-A3B 具有以下特点：
     - https://huggingface.co/Qwen/Qwen3-4B
     - https://huggingface.co/MaziyarPanahi/Qwen3-4B-GGUF
   description: |
-    Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models. Built upon extensive training, Qwen3 delivers groundbreaking advancements in reasoning, instruction-following, agent capabilities, and multilingual support, with the following key features:
-
-        Uniquely support of seamless switching between thinking mode (for complex logical reasoning, math, and coding) and non-thinking mode (for efficient, general-purpose dialogue) within single model, ensuring optimal performance across various scenarios.
-        Significantly enhancement in its reasoning capabilities, surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning.
-        Superior human preference alignment, excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience.
-        Expertise in agent capabilities, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.
-        Support of 100+ languages and dialects with strong capabilities for multilingual instruction following and translation.
-
-    Qwen3-4B has the following features:
-
-        Type: Causal Language Models
-        Training Stage: Pretraining & Post-training
-        Number of Parameters: 4.0B
-        Number of Paramaters (Non-Embedding): 3.6B
-        Number of Layers: 36
-        Number of Attention Heads (GQA): 32 for Q and 8 for KV
-        Context Length: 32,768 natively and 131,072 tokens with YaRN.
+     Qwen3 是 Qwen 系列中的最新一代大型语言模型，提供了一整套密集型和专家混合（MoE）模型。基于广泛的训练，Qwen3 在推理、指令遵循、代理能力和多语言支持方面取得了突破性进展，具有以下关键特性：
+在单个模型中无缝切换思考模式（用于复杂逻辑推理、数学和编码）和非思考模式（用于高效、通用对话），确保在各种场景下的最佳性能。
+显著增强了其推理能力，在数学、代码生成和常识逻辑推理方面超过了之前的 QwQ（在思考模式下）和 Qwen2.5 指令模型（在非思考模式下）。
+卓越的人类偏好对齐，在创意写作、角色扮演、多轮对话和指令遵循方面表现出色，提供更自然、引人入胜和沉浸式的对话体验。
+擅长代理能力，能够在思考和非思考模式下与外部工具精确集成，并在复杂的基于代理的任务中达到开源模型的领先性能。
+支持 100 多种语言和方言，具有强大的多语言指令遵循和翻译能力。
+   Qwen3-4B 具有以下特点：
+类型：因果语言模型
+训练阶段：预训练 & 后训练
+参数数量：40 亿
+非嵌入参数数量：36 亿
+层数：36 层
+注意力头数（GQA）：Q 为 32 个，KV 为 8 个
+上下文长度：原生 32,768 和 使用 YaRN 的 131,072 个令牌。
   overrides:
     parameters:
       model: Qwen3-4B.Q4_K_M.gguf
