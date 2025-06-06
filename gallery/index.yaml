@@ -7,7 +7,7 @@
     - https://huggingface.co/ggml-org/SmolVLM-256M-Instruct-GGUF
   license: apache-2.0
   description: |
-    SmolVLM-256M is the smallest multimodal model in the world. It accepts arbitrary sequences of image and text inputs to produce text outputs. It's designed for efficiency. SmolVLM can answer questions about images, describe visual content, or transcribe text. Its lightweight architecture makes it suitable for on-device applications while maintaining strong performance on multimodal tasks. It can run inference on one image with under 1GB of GPU RAM.
+    SmolVLM - 256M 是世界上最小的多模态模型。它接受任意序列的图像和文本输入以生成文本输出。它为高效运行而设计。SmolVLM 能够回答关于图像的问题、描述视觉内容或转录文本。其轻量级架构使其适用于设备端应用，同时在多模态任务上保持出色性能。它仅用不到 1GB 的 GPU 内存就能对单张图像进行推理。
   tags:
     - llm
     - gguf
@@ -34,7 +34,7 @@
     - https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct
     - https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF
   description: |
-    SmolVLM-500M is a tiny multimodal model, member of the SmolVLM family. It accepts arbitrary sequences of image and text inputs to produce text outputs. It's designed for efficiency. SmolVLM can answer questions about images, describe visual content, or transcribe text. Its lightweight architecture makes it suitable for on-device applications while maintaining strong performance on multimodal tasks. It can run inference on one image with 1.23GB of GPU RAM.
+    SmolVLM-500M是SmolVLM系列中的一款小型多模态模型。该模型能够接收任意组合的图像与文本输入序列，并生成文本输出，专为高效能设计。SmolVLM具备图像问答、视觉内容描述和文字转录能力，其轻量化架构使其在保持出色多模态任务性能的同时，非常适合端侧设备应用。该模型单图像推理仅需占用1.23GB显存
   overrides:
     parameters:
       model: SmolVLM-500M-Instruct-Q8_0.gguf
